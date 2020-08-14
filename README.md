@@ -5,8 +5,7 @@ An automatic random recipe generator made with a custom trained hugging-face's d
 I've used Eight Portions Recipe Data set which you can get here <a href='https://eightportions.com/datasets/Recipes/'>Link</a>
 
 <h3>Model</h3>
-you can directly use this model from the huggingface/transformers library<br>
-
+you can directly use this model from the huggingface/transformers library<br><br>
 
 tokenizer = AutoTokenizer.from_pretrained("kalki7/distilgpt2-ratatouille")<br>
 model = AutoModel.from_pretrained("kalki7/distilgpt2-ratatouille")
