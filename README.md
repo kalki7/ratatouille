@@ -8,4 +8,5 @@ I've used Eight Portions Recipe Data set which you can get here <a href='https:/
 you can directly use this model from the huggingface/transformers library
 
 tokenizer = AutoTokenizer.from_pretrained("kalki7/distilgpt2-ratatouille")
+
 model = AutoModel.from_pretrained("kalki7/distilgpt2-ratatouille")
